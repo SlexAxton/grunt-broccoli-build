@@ -45,7 +45,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "findup-sync": "^0.2.1",
-    "ncp": "^1.0.1"
+    "ember-cli-ncp": "^1.0.2",
+    "findup-sync": "^0.2.1"
   }
 }

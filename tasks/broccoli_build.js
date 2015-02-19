@@ -11,7 +11,7 @@
 module.exports = function (grunt) {
     grunt.registerMultiTask('broccoli_build', 'Runs a Broccoli build.', function () {
         var broccoli = require('broccoli'),
-            ncp      = require('ncp'),
+            ncp      = require('ember-cli-ncp'),
             findup   = require('findup-sync'),
             path     = require('path');
 
